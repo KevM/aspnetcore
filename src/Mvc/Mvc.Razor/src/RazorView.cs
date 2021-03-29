@@ -308,7 +308,7 @@ namespace Microsoft.AspNetCore.Mvc.Razor
                 Debug.Assert(originalLocations is not null && layoutPageResult.SearchedLocations is not null);
 
                 var locations = string.Empty;
-                if (originalLocations!.Any())
+                if (originalLocations.Any())
                 {
                     locations = Environment.NewLine + string.Join(Environment.NewLine, originalLocations);
                 }
