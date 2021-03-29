@@ -310,7 +310,7 @@ namespace Microsoft.AspNetCore.Mvc.ViewFeatures
 
             public void Reset()
             {
-                ((IEnumerator < KeyValuePair<string, object?>>)_enumerator).Reset();
+                ((IEnumerator<KeyValuePair<string, object?>>)_enumerator).Reset();
             }
 
             void IDisposable.Dispose()
